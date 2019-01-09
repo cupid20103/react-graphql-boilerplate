@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
     "apollo-boost": "^0.1.16",
     "apollo-client": "^2.4.2",
     "babel-core": "^7.0.0-bridge.0",
@@ -70,7 +71,8 @@
     "env": {
       "development": {
         "presets": [
-          "next/babel"
+          "next/babel",
+          "@zeit/next-typescript/babel"
         ],
         "plugins": [
           [
