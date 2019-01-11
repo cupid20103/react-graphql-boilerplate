@@ -18,6 +18,8 @@ Web app boilerplate using cutting edge web technologies
 
 ### Back-End
 - [GraphQL Yoga](https://github.com/prisma/graphql-yoga) (Express [GraphQL](https://graphql.org/) Server)
+- [Prisma](https://www.prisma.io/) (GraphQL Database Interface)
+  - Automatically generate CRUD (**C**reate **R**ead **U**pdate **D**elete)
 
 ### General
 - [GraphQL](https://graphql.org/) (REST alternative / querying data)
@@ -79,38 +81,38 @@ npm run storybook
 
 Component directory example:
 
-/**components**
-  /*YourComponentName*
-    /YourComponentName.**tsx**
-    /YourComponentName.**stories.tsx**
-    /YourComponentName.**tests.tsx**
+- /**components**
+  - /*YourComponentName*
+    - /YourComponentName.**tsx**
+    - /YourComponentName.**stories.tsx**
+    - /YourComponentName.**tests.tsx**
 
 ### Motivation
 
 **Storybook driven development** is the way to go when building a UI
 
-- Browse the storybook to see if a component exists that fits your needs
-- Quickly understand a component you haven't written
-- Build in isolation
-- Hot Module Replacement speeds up the development process
-- No component duplicates
+- **Browse the storybook** to see if a component already exists and fits your needs
+- **Quickly understand** a component you haven't written
+- Build in **isolation**
+- Hot Module Replacement **speeds up** the development process
+- **No component duplicates**
 
 ---
 
 ## TODOS
-1. Enable typescript on storybook and backend
-2. Setup test runner properly
-3. Integrate jest with storybook
-4. Prettier config
-5. TSLint config
-6. Editor config in README (Prettier format on save and other)
-7. Setup custom _app (Next.js)
-8. Setup custom _document (Next.js)
-9. Layout component
-10. Global styles
-11. Setup nProgress (Loading bar + spinner on page transitions)
-12. Stylelint (?)
-13. Extension pack for VSCode
-14. More docs + example on key features
-15. Generators (?)
-16. Backend Testing
+1. Enable **TypeScript** on **storybook** and **backend**
+2. Setup **test runner** properly
+3. Integrate **Jest** with **Storybook**
+4. **Prettier** config
+5. **TSLint** config
+6. **Editor config** in README (Prettier format on save and other)
+7. Setup custom **_app** (Next.js)
+8. Setup custom **_document** (Next.js)
+9. **Layout.tsx** component
+10. **Global styles**
+11. Setup **nProgress** (Loading bar + spinner on page transitions)
+12. **Stylelint** (?)
+13. **Extension pack** for VSCode
+14. More **docs** + example on key features
+15. **Generators** (?)
+16. **Backend Testing**
