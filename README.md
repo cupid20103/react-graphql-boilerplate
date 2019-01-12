@@ -25,6 +25,7 @@ Web app boilerplate using cutting edge web technologies
 - [GraphQL](https://graphql.org/) (REST alternative / querying data)
 - [TypeScript](https://www.typescriptlang.org/) (Type system for JavaScript)
 - [Jest](https://jestjs.io/) (Test runner)
+- [GraphQL Code Generator](https://graphql-code-generator.com/) (Generate TypeScript definitions from GraphQL)
 
 ---
 
@@ -100,7 +101,7 @@ Component directory example:
 ---
 
 ## TODOS
-1. Enable **TypeScript** on **storybook** and **backend**
+1. ~~Enable **TypeScript** on **storybook** and **backend**~~
 2. Setup **test runner** properly
 3. Integrate **Jest** with **Storybook**
 4. **Prettier** config
