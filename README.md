@@ -102,15 +102,15 @@ Component directory example:
 
 ## TODOS
 1. ~~Enable **TypeScript** on **storybook** and **backend**~~
-2. Setup **test runner** properly
+2. Setup **test runner** properly (Missing TypeScript support)
 3. Integrate **Jest** with **Storybook**
 4. ~~**Prettier** config~~
 5. ~~**TSLint** config~~
 6. **Editor config** in README (Prettier format on save and other)
 7. ~~Setup custom **_app** (Next.js)~~
 8. ~~Setup custom **_document** (Next.js)~~
-9. **Layout.tsx** component
-10. **Global styles**
+9. ~~**Page.tsx** component~~
+10. ~~**Global styles**~~
 11. Setup **nProgress** (Loading bar + spinner on page transitions)
 12. ~~**Stylelint**~~
 13. **Extension pack** for VSCode
