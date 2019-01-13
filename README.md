@@ -104,8 +104,8 @@ Component directory example:
 1. ~~Enable **TypeScript** on **storybook** and **backend**~~
 2. Setup **test runner** properly
 3. Integrate **Jest** with **Storybook**
-4. **Prettier** config
-5. **TSLint** config
+4. ~~**Prettier** config~~
+5. ~~**TSLint** config~~
 6. **Editor config** in README (Prettier format on save and other)
 7. Setup custom **_app** (Next.js)
 8. Setup custom **_document** (Next.js)

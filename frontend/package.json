@@ -39,7 +39,6 @@
     "react-stripe-checkout": "^2.6.3",
     "react-transition-group": "^2.5.0",
     "styled-components": "^3.4.9",
-    "tslint-config-airbnb": "^5.11.1",
     "waait": "^1.0.2"
   },
   "devDependencies": {
@@ -57,7 +56,12 @@
     "graphql-tools": "^4.0.0",
     "jest": "^23.6.0",
     "jest-transform-graphql": "^2.1.0",
-    "ts-jest": "^23.10.5"
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.5.1",
+    "ts-jest": "^23.10.5",
+    "tslint-config-airbnb": "^5.11.1"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
