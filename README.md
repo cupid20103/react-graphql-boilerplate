@@ -78,7 +78,7 @@ storiesOf('Button', module)
 npm run storybook
 ```
 
-6. Test your component in a *YourComponentName.tests.tsx* file if needed.
+6. Test your component in a *YourComponentName.test.tsx* file if needed.
 
 Component directory example:
 
@@ -86,7 +86,7 @@ Component directory example:
   - /*YourComponentName*
     - /YourComponentName.**tsx**
     - /YourComponentName.**stories.tsx**
-    - /YourComponentName.**tests.tsx**
+    - /YourComponentName.**test.tsx**
 
 ### Motivation
 
@@ -107,13 +107,18 @@ Component directory example:
 4. ~~**Prettier** config~~
 5. ~~**TSLint** config~~
 6. **Editor config** in README (Prettier format on save and other)
-7. Setup custom **_app** (Next.js)
-8. Setup custom **_document** (Next.js)
+7. ~~Setup custom **_app** (Next.js)~~
+8. ~~Setup custom **_document** (Next.js)~~
 9. **Layout.tsx** component
 10. **Global styles**
 11. Setup **nProgress** (Loading bar + spinner on page transitions)
-12. **Stylelint** (?)
+12. ~~**Stylelint**~~
 13. **Extension pack** for VSCode
 14. More **docs** + example on key features
-15. **Generators** (?)
-16. **Backend Testing**
+15. **Backend Testing**
+
+---
+
+##Useful links
+
+- [React TypeScript Guide](https://github.com/piotrwitek/react-redux-typescript-guide#tslintjson)
