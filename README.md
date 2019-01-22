@@ -101,7 +101,7 @@ Component directory example:
 ---
 
 ## TODOS
-1. ~~Enable **TypeScript** on **storybook** and **backend**~~
+1. Enable **TypeScript** on ~~**storybook**~~ and ~~**backend**~~
 2. Setup **test runner** properly (Missing TypeScript support)
 3. Integrate **Jest** with **Storybook**
 4. ~~**Prettier** config~~
@@ -122,3 +122,4 @@ Component directory example:
 ##Useful links
 
 - [React TypeScript Guide](https://github.com/piotrwitek/react-redux-typescript-guide#tslintjson)
+- [Authentication in GraphQL](https://www.youtube.com/watch?v=4_Bcw7BULC8)
