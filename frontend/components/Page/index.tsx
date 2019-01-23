@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ThemeProvider, injectGlobal } from 'styled-components';
 
 import Meta from '../Meta';
@@ -26,7 +26,7 @@ injectGlobal`
   }
 `;
 
-export default class Page extends Component {
+export default class Page extends React.Component {
   render() {
     return (
       <ThemeProvider theme={theme}>

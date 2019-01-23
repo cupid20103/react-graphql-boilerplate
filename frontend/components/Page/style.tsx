@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledPage = styled.div`
   background: white;
+  margin: 1.33rem;
 `;
 
 export const Inner = styled.div`
