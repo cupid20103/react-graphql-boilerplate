@@ -1,6 +1,6 @@
 # react-graphql-boilerplate
 
-Web app boilerplate using cutting edge web technologies
+React boilerplate using cutting edge web technologies
 
 - [What's included and Why](#What's-included-and-Why)
 - [Project Structure](#Project-Structure)
@@ -8,18 +8,12 @@ Web app boilerplate using cutting edge web technologies
 - [TODOS](#TODOS)
 
 ## What's included and Why
-### Front-End
 - [React](https://reactjs.org/) (Building the user interface)
 - [Apollo](https://www.apollographql.com/) (Data Management with GraphQL)
 - [Next.js](https://nextjs.org/) (Server Side Rendering and Code Splitting)
 - [styled-components](https://www.styled-components.com/) (Styling components)
 - [Storybook](https://storybook.js.org/) (Quickly creating components in isolation)
 - [Enzyme](https://airbnb.io/enzyme/) (React components testing)
-
-### Back-End
-- [GraphQL Yoga](https://github.com/prisma/graphql-yoga) (Express [GraphQL](https://graphql.org/) Server)
-- [Prisma](https://www.prisma.io/) (GraphQL Database Interface)
-  - Automatically generate CRUD (**C**reate **R**ead **U**pdate **D**elete)
 
 ### General
 - [GraphQL](https://graphql.org/) (REST alternative / querying data)
@@ -30,7 +24,6 @@ Web app boilerplate using cutting edge web technologies
 ---
 
 ## Project Structure
-### Front-End
 - **.storybook** : Storybook's configuration
 - **components** : Every React Component that isn't a page
 - **lib** : Reusable utility functions
@@ -41,13 +34,6 @@ Web app boilerplate using cutting edge web technologies
 - **jest.setup.js** : Test Runner configuration
 - **next.config.js** : Next.js configuration (currently making sure TypeScript works with Next.js)
 - **tsconfig.json** : TypeScript configuration
-
-### Back-End
-- **src**
-  - **generated** : Prisma generated CRUD
-  - **resolvers** : Custom Mutations/Queries
-- **.graphqlconfig.yml** : GraphQL configuration
-- **variables.env** : Environment variables (ie. Stripe/Prisma secrets)
 
 ---
 
@@ -101,21 +87,14 @@ Component directory example:
 ---
 
 ## TODOS
-1. Enable **TypeScript** on ~~**storybook**~~ and ~~**backend**~~
-2. Setup **test runner** properly (Missing TypeScript support)
-3. Integrate **Jest** with **Storybook**
-4. ~~**Prettier** config~~
-5. ~~**TSLint** config~~
-6. **Editor config** in README (Prettier format on save and other)
-7. ~~Setup custom **_app** (Next.js)~~
-8. ~~Setup custom **_document** (Next.js)~~
-9. ~~**Page.tsx** component~~
-10. ~~**Global styles**~~
-11. Setup **nProgress** (Loading bar + spinner on page transitions)
-12. ~~**Stylelint**~~
-13. **Extension pack** for VSCode
-14. More **docs** + example on key features
-15. **Backend Testing**
+1. Enable **TypeScript** with **Jest**
+2. Integrate **Jest** with **Storybook**
+3. Setup **TypeScript** properly (**@types**)
+4. Make sure TSLint rules are being respected
+5. Fix current TSLint errors
+6. Setup **nProgress** (Loading bar + spinner on page transitions)
+7. **Extension pack** for VSCode
+8. More **docs** + example on key features
 
 ---
 

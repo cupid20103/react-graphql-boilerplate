@@ -1,3 +1,0 @@
-# The import isnt a comment
-# This is actually how you import something in graphql
-# import * from './generated/prisma.graphql'
